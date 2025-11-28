@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speakers - Future Gadget Expo 2025</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Meet the world-class speakers at Future Gadget Expo 2025, featuring industry leaders in AI, robotics, space technology, and biotechnology.">
+  <meta name="keywords" content="tech speakers, AI experts, robotics leaders, space technology, biotechnology speakers">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Speakers - Future Gadget Expo 2025">
+  <meta property="og:description" content="Meet the world-class speakers featuring industry leaders in AI, robotics, space technology, and biotechnology.">
+  <meta property="og:type" content="website">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html" class="header__logo">FGE 2025</a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="speakers.html" class="nav__link">Speakers</a></li>
+          <li class="nav__item"><a href="schedule.html" class="nav__link">Schedule</a></li>
+          <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+          <li class="nav__item">
+            <a href="register.html" class="nav__link btn btn--primary" style="margin-left: 1rem;">Register</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navigation Toggle -->
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation">☰</button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="nav nav--mobile" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="speakers.html" class="nav__link">Speakers</a></li>
+        <li class="nav__item"><a href="schedule.html" class="nav__link">Schedule</a></li>
+        <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+        <li class="nav__item"><a href="register.html" class="nav__link">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main style="padding-top: 80px;">
+    <!-- Hero Section -->
+    <section class="section section--hero">
+      <div class="container text-center">
+        <h1 class="hero__title">World-Class Speakers</h1>
+        <p class="hero__subtitle">Learn from industry pioneers and visionary leaders</p>
+      </div>
+    </section>
+
+    <!-- Speaker Filter -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center mb-8">
+          <h2>Filter by Category</h2>
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+            <button class="btn btn--secondary speaker-filter" data-category="all">All</button>
+            <button class="btn btn--secondary speaker-filter" data-category="ai">AI & Machine Learning</button>
+            <button class="btn btn--secondary speaker-filter" data-category="robotics">Robotics</button>
+            <button class="btn btn--secondary speaker-filter" data-category="space">Space Technology</button>
+            <button class="btn btn--secondary speaker-filter" data-category="biotech">Biotechnology</button>
+            <button class="btn btn--secondary speaker-filter" data-category="sustainability">Sustainability</button>
+          </div>
+        </div>
+
+        <!-- Speakers Grid -->
+        <div class="grid grid--3 speakers-grid">
+          <!-- AI & Machine Learning Speakers -->
+          <div class="card speaker-card" data-category="ai" data-modal-trigger="speaker-sarah">
+            <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. Sarah Chen" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Dr. Sarah Chen</h3>
+              <p class="card__subtitle">AI Research Director, TechCorp</p>
+              <span class="badge" style="background: var(--color-primary); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">AI & ML</span>
+            </div>
+            <div class="card__content">
+              <p>Leading expert in neural networks and machine learning with 15+ years of experience in AI development.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-sarah">View Bio</button>
+            </div>
+          </div>
+
+          <div class="card speaker-card" data-category="ai" data-modal-trigger="speaker-alex">
+            <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Alex Thompson" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Alex Thompson</h3>
+              <p class="card__subtitle">Chief AI Officer, InnovateLab</p>
+              <span class="badge" style="background: var(--color-primary); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">AI & ML</span>
+            </div>
+            <div class="card__content">
+              <p>Pioneer in conversational AI and natural language processing, creator of multiple AI-powered products.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-alex">View Bio</button>
+            </div>
+          </div>
+
+          <!-- Robotics Speakers -->
+          <div class="card speaker-card" data-category="robotics" data-modal-trigger="speaker-maria">
+            <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. Maria Gonzalez" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Dr. Maria Gonzalez</h3>
+              <p class="card__subtitle">Robotics Engineer, Boston Dynamics</p>
+              <span class="badge" style="background: var(--color-secondary); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">Robotics</span>
+            </div>
+            <div class="card__content">
+              <p>Leading developer of humanoid robots and autonomous systems, focusing on human-robot interaction.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-maria">View Bio</button>
+            </div>
+          </div>
+
+          <!-- Space Technology Speakers -->
+          <div class="card speaker-card" data-category="space" data-modal-trigger="speaker-marcus">
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Marcus Rodriguez" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Marcus Rodriguez</h3>
+              <p class="card__subtitle">SpaceX Engineering Lead</p>
+              <span class="badge" style="background: var(--color-accent); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">Space Tech</span>
+            </div>
+            <div class="card__content">
+              <p>Aerospace engineer working on Mars mission technology and next-generation rocket propulsion systems.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-marcus">View Bio</button>
+            </div>
+          </div>
+
+          <div class="card speaker-card" data-category="space" data-modal-trigger="speaker-emily">
+            <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. Emily Watson" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Dr. Emily Watson</h3>
+              <p class="card__subtitle">NASA Planetary Scientist</p>
+              <span class="badge" style="background: var(--color-accent); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">Space Tech</span>
+            </div>
+            <div class="card__content">
+              <p>Expert in planetary exploration and astrobiology, leading research on Mars sample return missions.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-emily">View Bio</button>
+            </div>
+          </div>
+
+          <!-- Biotechnology Speakers -->
+          <div class="card speaker-card" data-category="biotech" data-modal-trigger="speaker-james">
+            <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. James Park" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Dr. James Park</h3>
+              <p class="card__subtitle">Biotech Researcher, CRISPR Therapeutics</p>
+              <span class="badge" style="background: var(--color-success); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">Biotech</span>
+            </div>
+            <div class="card__content">
+              <p>Pioneer in gene editing technologies and personalized medicine, advancing CRISPR applications.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-james">View Bio</button>
+            </div>
+          </div>
+
+          <!-- Sustainability Speakers -->
+          <div class="card speaker-card" data-category="sustainability" data-modal-trigger="speaker-lisa">
+            <img src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Lisa Zhang" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Lisa Zhang</h3>
+              <p class="card__subtitle">Clean Tech Entrepreneur</p>
+              <span class="badge" style="background: var(--color-warning); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">Sustainability</span>
+            </div>
+            <div class="card__content">
+              <p>Founder of renewable energy startups, focusing on solar technology and sustainable transportation.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-lisa">View Bio</button>
+            </div>
+          </div>
+
+          <div class="card speaker-card" data-category="robotics" data-modal-trigger="speaker-david">
+            <img src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=400" alt="David Kumar" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">David Kumar</h3>
+              <p class="card__subtitle">Autonomous Vehicle Engineer, Tesla</p>
+              <span class="badge" style="background: var(--color-secondary); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">Robotics</span>
+            </div>
+            <div class="card__content">
+              <p>Expert in autonomous driving systems and computer vision, leading self-driving car development.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-david">View Bio</button>
+            </div>
+          </div>
+
+          <div class="card speaker-card" data-category="ai" data-modal-trigger="speaker-priya">
+            <img src="https://images.pexels.com/photos/3184304/pexels-photo-3184304.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. Priya Sharma" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card__header">
+              <h3 class="card__title">Dr. Priya Sharma</h3>
+              <p class="card__subtitle">AI Ethics Researcher, DeepMind</p>
+              <span class="badge" style="background: var(--color-primary); color: white; padding: 0.25rem 0.5rem; border-radius: 1rem; font-size: 0.75rem;">AI & ML</span>
+            </div>
+            <div class="card__content">
+              <p>Leading researcher in AI safety and ethics, working on responsible AI development and deployment.</p>
+            </div>
+            <div class="card__footer">
+              <button class="btn btn--primary" data-modal-trigger="speaker-priya">View Bio</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Speaker Modals -->
+  <div id="speaker-sarah" class="modal">
+    <div class="modal__content">
+      <button class="modal__close">&times;</button>
+      <div style="display: flex; gap: 2rem; align-items: flex-start;">
+        <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Dr. Sarah Chen" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+        <div>
+          <h2>Dr. Sarah Chen</h2>
+          <p class="text-secondary" style="font-size: 1.1rem; margin-bottom: 1rem;">AI Research Director, TechCorp</p>
+          <p><strong>Talk:</strong> "The Future of Neural Networks: Beyond Current Limitations"</p>
+          <p><strong>Bio:</strong> Dr. Sarah Chen is a leading expert in neural networks and machine learning with over 15 years of experience in AI development. She holds a PhD in Computer Science from MIT and has published over 50 research papers in top-tier conferences.</p>
+          <p>Her work focuses on developing more efficient and interpretable neural network architectures. She has led teams that created breakthrough AI systems used by millions of people worldwide.</p>
+          <p><strong>Achievements:</strong></p>
+          <ul>
+            <li>Winner of the AI Innovation Award 2023</li>
+            <li>Featured in Forbes "Top 40 Under 40 in Tech"</li>
+            <li>Author of "Neural Networks Unleashed" (bestseller)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="speaker-marcus" class="modal">
+    <div class="modal__content">
+      <button class="modal__close">&times;</button>
+      <div style="display: flex; gap: 2rem; align-items: flex-start;">
+        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Marcus Rodriguez" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+        <div>
+          <h2>Marcus Rodriguez</h2>
+          <p class="text-secondary" style="font-size: 1.1rem; margin-bottom: 1rem;">SpaceX Engineering Lead</p>
+          <p><strong>Talk:</strong> "Mars Mission Technology: Engineering the Journey to Another Planet"</p>
+          <p><strong>Bio:</strong> Marcus Rodriguez is a pioneering aerospace engineer working on next-generation rocket propulsion systems and Mars mission technology at SpaceX. With a Master's in Aerospace Engineering from Caltech, he has been instrumental in developing the technologies that will enable human settlement on Mars.</p>
+          <p>He leads the team responsible for developing life support systems and habitat technologies for long-duration space missions.</p>
+          <p><strong>Achievements:</strong></p>
+          <ul>
+            <li>Lead engineer on 12 successful SpaceX missions</li>
+            <li>Holds 15 patents in aerospace technology</li>
+            <li>NASA Exceptional Engineering Achievement Medal recipient</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Additional modals would be here for other speakers -->
+
+  <!-- Footer -->
+  <footer class="section bg-secondary">
+    <div class="container">
+      <div class="grid grid--3">
+        <div>
+          <h3>Future Gadget Expo</h3>
+          <p>The premier technology exhibition showcasing tomorrow's innovations today.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 0.5rem;"><a href="about.html">About</a></li>
+            <li style="margin-bottom: 0.5rem;"><a href="speakers.html">Speakers</a></li>
+            <li style="margin-bottom: 0.5rem;"><a href="schedule.html">Schedule</a></li>
+            <li style="margin-bottom: 0.5rem;"><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <p>📧 info@futuregadgetexpo.com<br>
+          📞 (555) 123-4567<br>
+          📍 San Francisco, CA</p>
+        </div>
+      </div>
+      <hr style="margin: 2rem 0; border: 1px solid var(--color-border);">
+      <div class="text-center">
+        <p>&copy; 2024 Future Gadget Expo. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/theme-toggle.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Speaker filtering functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.speaker-filter');
+      const speakerCards = document.querySelectorAll('.speaker-card');
+
+      // Set initial active state
+      filterButtons[0].classList.add('btn--primary');
+      filterButtons[0].classList.remove('btn--secondary');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const category = this.getAttribute('data-category');
+          
+          // Update active button
+          filterButtons.forEach(btn => {
+            btn.classList.remove('btn--primary');
+            btn.classList.add('btn--secondary');
+          });
+          this.classList.add('btn--primary');
+          this.classList.remove('btn--secondary');
+
+          // Filter speakers
+          speakerCards.forEach(card => {
+            const cardCategory = card.getAttribute('data-category');
+            if (category === 'all' || cardCategory === category) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
